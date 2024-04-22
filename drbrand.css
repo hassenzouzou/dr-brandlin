@@ -42,6 +42,21 @@ body {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 768px) {
+  .hook-text {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .hook {
+    font-size: 16px;
+  }
+
+  .end {
+    font-size: 16px;
+  }
+}
+
 span {
   font-weight: bold;
 }
@@ -100,4 +115,10 @@ button:active {
   color: #d6d6d6;
   -webkit-transition: 100ms;
   transition: 100ms;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 10px;
+  }
 }
